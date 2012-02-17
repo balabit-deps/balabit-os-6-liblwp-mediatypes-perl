@@ -1,0 +1,22 @@
+Source: liblwp-mediatypes-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nicholas Bamber <nicholas@periapt.co.uk>
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/LWP-MediaTypes/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/liblwp-mediatypes-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/liblwp-mediatypes-perl.git
+
+Package: liblwp-mediatypes-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Replaces: libwww-perl (<< 6.00)
+Breaks: libwww-perl (<< 6.00)
+Description: module to guess media type for a file or a URL
+ LWP::MediaTypes provides functions for handling media (also known as MIME)
+ types and encodings. The mapping from file extensions to media types is
+ defined by the media.types file. If the ~/.media.types file exists it is used
+ instead. For backwards compatibility it will also look for ~/.mime.types.

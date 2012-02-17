@@ -1,0 +1,23 @@
+liblwp-mediatypes-perl (6.02-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Bump Standards-Version to 3.9.2 (no changes needed)
+  * Bump debhelper compat level to 8
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Fri, 17 Feb 2012 14:12:17 +0100
+
+liblwp-mediatypes-perl (6.01-1) unstable; urgency=low
+
+  * Initial Release (Closes: #617646).
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Thu, 10 Mar 2011 09:32:41 +0000
